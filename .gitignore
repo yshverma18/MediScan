@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+.env
+.venv/
+
+# Flutter
+build/
+.dart_tool/
+.packages
+.pub/
+.flutter-plugins*
+android/.gradle/
+ios/Pods/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+
+# Large / SDK tools (do not commit)
+cmdline-tools.zip
+**/cmdline-tools.zip
+
+
+# Large SDK zip
+cmdline-tools.zip
+**/cmdline-tools.zip
