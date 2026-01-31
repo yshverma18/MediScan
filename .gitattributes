@@ -1,0 +1,13 @@
+# Ignore generated native & build files from GitHub language stats
+
+# Flutter Android native build
+flutter/android/** linguist-vendored
+**/.cxx/** linguist-vendored
+**/build/** linguist-vendored
+
+# Flutter iOS native build
+flutter/ios/** linguist-vendored
+**/Pods/** linguist-vendored
+
+# CMake & native artifacts
+**/*.cmake linguist-vendored
